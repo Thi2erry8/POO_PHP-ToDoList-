@@ -1,0 +1,15 @@
+{
+    "name": "poo/todolist",
+    "autoload": {
+        "psr-4": {
+            "Poo\\Todolist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thi2erry8",
+            "email": "jonathanaugustin056@gmail.com"
+        }
+    ],
+    "require": {}
+}
