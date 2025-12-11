@@ -11,7 +11,7 @@
 
       public function index(){
         $tasks = $this->task->getAll();
-        require_once __DIR__ . '/../Views/task/index.php';
+        require_once __DIR__ . '/../Views/tasks.php';
       }
 
       public function store(){

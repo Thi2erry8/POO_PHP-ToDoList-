@@ -11,7 +11,7 @@ class Task extends  Database{
     }
 
     public function add($title, $contenue){
-      $sql = "INSERT INTO tache (nom, contenue) VALUES (?, ?)" ;
+      $sql = "INSERT INTO tache (nom, contenu) VALUES (?, ?)" ;
       $stmt = $this->connect()->prepare($sql);
       $stmt->execute([$title, $contenue]);
     }
